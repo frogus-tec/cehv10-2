@@ -79,6 +79,7 @@ Evasion techniques:
 ### IP Adress Decoy
 
 ### IP Adress Spoofing
+
  IP Spoofing Detection:
 
  * Direct TTL probes
@@ -99,6 +100,8 @@ Evasion techniques:
 
 Proxy chaining.
 
+[Tools](Tools.md)
+
 ### Anonymizers.
 
 Reasons:
@@ -115,9 +118,59 @@ Types:
 
 ## BANNER GRABBING
 
+Types
+
+* Active Banner Grabbing
+* Pasive Banner Grabbing
+  * Error logs
+  * Sniffing network traffic
+  * From page extensions
+
+Areas that determine the OS:
+
+* TTL of the packets.
+* Window size.
+* Whether the DF bit is set.
+* TOS (Type of Service)
+
+Countermeasures
+
+* Disabling or Changing Banner
+  * Display false banners.
+  * Turn off unnecesary services.
+  * Use ServerMask tools.
+  * ServerMask removes HTTP header, provides false signatures and also provides the optio of eliminating file extensios such as .asp or .aspx
+  * Apache: change banner information.
+  * Change the ServerSignature to ServerSignatureOff in the httpd.conf file.
+* Hiding File Extensions from Web Pages
+  * Hide file extensios to mask the web technology
+  * Change app. mappings such as .asp with .htm
+  * Apache users can use mod_negotiation directives
+  * IIS users use tools such as PageXchanger
+
+
+
 ## DRAW NETWORK DIAGRAMS
 
 ## SCANNING PEN TESTING
+
+Help de sysadmin to:
+
+* Close unused ports
+* Disable unnecessary services
+* Hide or customize banners
+* Troubleshoot service configuration errors
+* Calibrate FW rules to impose more restriction
+
+Pen-test:
+
+1. Perform host discovery
+2. Perform port scanning
+3. Scan beyond IDS and FW
+4. Perform banner grabbing or OS fingerprinting
+5. Draw network diagrams
+6. Document all the findings
+
 
 
 
