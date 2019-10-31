@@ -1,6 +1,6 @@
 # MODULE 1 * Introduction to Ethical Hacking
 
-## Information Security Overview
+## INFORMATION SECURITY OVERVIEW
 
 ### Terminology
 
@@ -44,7 +44,7 @@ The relationship between these three components is demonstrated by using a trian
 
 For example, increased security and decreased Functionality and Usability.
 
-## Information Security Threats and Attack Vectors
+## INFORMATION SECURITY THREATS AND ATTACK VECTORS
 
 **Attacks=Motive(Goal)+Method+Vulnerability**
 
@@ -168,7 +168,7 @@ Each form of the information warfare, consists of both defensive and offensive s
 * Defensive Information Warfare: Involves all strategies and actions to defend against attacks on ICT assets.
 * Offensive Information Warfare: Involves attacks against ICT assets of an opponent.
 
-## Hacking concepts
+## HACKING CONCEPTS
 
 **Definition**: Hacking in the field of computer security refers to exploit system vulnerabilities and compromising security controls to gain unauthorized or inappropiate access to system resources.
 
@@ -209,7 +209,7 @@ Target range may include the target organization's clients, employees, operation
 
 ### Clearing Tracks
 
-## Ethical Hacking Concepts
+## ETHICAL HACKING CONCEPTS
 
 **Definition**: Ethical hacking is the practice of employing computer and network skills in order to assist organizations in testing their network security for possible loopholes and vulnerabilities. With the permission of the network/system owner and without the intention to cause harm.
 
@@ -262,7 +262,7 @@ Non*Technical Skills
 * Commitment to an organization's security policies
 * Awareness of local standards and laws
 
-## Information security controls
+## INFORMATION SECURITY CONTROLS
 
 ### IA Information assurance
 
@@ -377,7 +377,7 @@ The following are the goals of security policies:
 
 ### Types of Security Policies
 
-A security policy is a document that contains information about the way the company plans to protect its information assets from known and unknown threats. These policies help to maintain the confidentially, availability, and integrity of information. The four major types of security policy are as follows:
+A security policy is a document that contains information about the way the company plans to protect its information assets from known and unknown threats. These policies help to maintain the **confidentially, availability, and integrity of information**. The four major types of security policy are as follows:
 
 * Promiscuous Policy
 
@@ -443,4 +443,68 @@ To create and implement security policies an organization should:
 7. Deploy tools to enforce the policies
 8. Train and educate employees about the policy
 9. Regularly review and update
+
+
+## PENETRATION TESTING CONCEPTS
+
+## INFORMATION SECURITY LAWS AND STANDARS
+
+### PCI DSS : Payment Card Industry Data Security Standard
+
+Propietary for organizations that handle cardholder information for the major debit, credit, pre-paid, e-purse, ATM and POS cards.
+
+Applies to all entities involved in payment card processing.
+
+Offers robust and comprehensive standards and supporting materials to enhance payment card security.
+
+High level overview of PCI DSS requirements developed and maintained by the PCI Security Standards Council.
+
+* Build and Maintain a Secure Network.
+  * Firewall to protect cardholder data
+  * Do not use default passwords and other sec. params.
+* Protect Cardholder data.
+  * Protect stored cardholder data
+  * Encrypt transmission of cardholder data across open, public networks.
+* Maintain a Vulnerability Mgmt. Program.
+  * Use and regularly update anti-virus softw. or programs
+  * Devel. and maintain secure systems and applications
+* Implement Strong Access Control Measures.
+  * Restrict access to cardholder data by business need to know
+  * Assign a uniq.ID to each person with computer access
+  * Restrict physical access to cardholder data
+* Regularly Monitor and Test networks.
+  * Track and Monitor all access to network resources and cardholder data
+  * Regularly test security systems and processes
+* Maintain and Information Security Policy.
+  * Maintain a policy that addresses information security for all personnel.
+
+### ISO/IEC 27001:2013
+
+Specifies the reqs. for establishing, implementing, maintaining, and continually improving an information security mgmt. system within the context of the organization.
+
+* Use within orgs. to formulate sec. reqs. and objectives
+* Use within orgs as a way to enxure that the sec. risks are cost effectively managed.
+* Use within orgs to ensure compliance with laws and regulations.
+* Definition of new information sec. magmt. processes
+* Identification and clarification of existing information sec. mgmt. processes
+* Use by the mgmt. of orgs. to determine the status of information sec. mgmt. activities.
+* Implementation of business-enabling information sec.
+* Use by orgs. to provide relevant information about information sec. to customers
+
+### HIPAA Health Insurance Portability and Accountability Act
+
+HIPAA Privacy Rule provides federal protections for individually identifiable health information. 
+
+Permits the disclosure of health information needed for patient care and other important purposes.
+
+* Electronic Transaction and Code Sets Standards
+* Privacy Rule
+* Security Rule
+* Employer Identifer Standard
+* National Provider Identifier Standard (NPI)
+* Enforcement Rule
+
+### SOX Sabarnes Oxley Act
+
+### DMCA Digital Millennium Copyright Act
 
